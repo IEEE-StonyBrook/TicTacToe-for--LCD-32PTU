@@ -1,0 +1,124 @@
+﻿Version     0.0
+Platform    uLCD-32PTU-L
+PlatRes     240x320
+Depends
+end
+Options
+    Genie
+    Speed                        9600
+    Checksum                     No
+    ResponseSize                 2
+    Multidrop                    No
+    Destination                  2
+    SndBuf                       0
+end
+Form
+    Name                         Form0
+    Bgtype                       Color
+    Color                        BLACK
+    Image                        (None)
+    Source.Height                0
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 0
+    OnActivate                   ''
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+Image
+    Name                         Image0
+    Height                       20
+    Image                        tictacolumn.png
+    Left                         20
+    Source.Height                320
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 30
+    Visible                      Yes
+    Top                          156
+    Width                        280
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+Image
+    Name                         Image1
+    Height                       20
+    Image                        tictacolumn.png
+    Left                         20
+    Source.Height                320
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 30
+    Visible                      Yes
+    Top                          72
+    Width                        280
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+Image
+    Name                         Image2
+    Height                       220
+    Image                        tictacolumn.png
+    Left                         100
+    Source.Height                320
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 30
+    Visible                      Yes
+    Top                          12
+    Width                        20
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+Image
+    Name                         Image3
+    Height                       220
+    Image                        tictacolumn.png
+    Left                         200
+    Source.Height                320
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 30
+    Visible                      Yes
+    Top                          12
+    Width                        20
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+StaticText
+    Name                         Statictext0
+    AutoSize                     Yes
+    Caption                      X
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    System
+    Font.Size                    40
+    Font.Style                   [Bold]
+    Height                       64
+    Left                         144
+    Top                          92
+    Transparent                  Yes
+    Visible                      Yes
+    Width                        36
+    WordWrap                     Yes
+end
+UserButton
+    Name                         Userbutton0
+    Height                       64
+    Images                       ''
+    Left                         121
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          91
+    Width                        78
+    OnChanged                    'Report Message'
+end
